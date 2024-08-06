@@ -15,7 +15,7 @@ public class BillboardRotationScript : MonoBehaviour
         int activeBillboardIndex = Random.Range(0, billboardMeshes.Length);
         GameObject activeBillboard = billboardMeshes[activeBillboardIndex];
         activeBillboard.SetActive(true);
-        activeBillboard.transform.localScale = Vector3.one * Random.Range(0.9f, 1.7f);        
+        activeBillboard.transform.localScale = Vector3.one * Random.Range(1.4f, 1.85f);        
     }
 
     // Update is called once per frame
