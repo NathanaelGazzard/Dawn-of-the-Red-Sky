@@ -537,7 +537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &539025549
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -860,6 +860,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8538250657452812248, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b25e47b43afa99443bfad37421ff8275, type: 2}
+    - target: {fileID: -8538250657452812248, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 993206fe9a00df94da626b5b534fe798, type: 2}
+    - target: {fileID: -8332336900490330053, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 993206fe9a00df94da626b5b534fe798, type: 2}
+    - target: {fileID: -8291020703213460832, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b25e47b43afa99443bfad37421ff8275, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 993206fe9a00df94da626b5b534fe798, type: 2}
+    - target: {fileID: -6093592463355912122, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b25e47b43afa99443bfad37421ff8275, type: 2}
     - target: {fileID: 919132149155446097, guid: 1294a44a03cc27442ac3858a53570966, type: 3}
       propertyPath: m_Name
       value: Crane
