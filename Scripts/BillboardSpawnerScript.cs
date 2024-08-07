@@ -7,8 +7,6 @@ public class BillboardSpawnerScript : MonoBehaviour
     [SerializeField] GameObject billboardPrefab;
     [SerializeField] MeshFilter spawnerTerrain;
 
-    bool skipVertex = true;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -19,13 +17,6 @@ public class BillboardSpawnerScript : MonoBehaviour
         {
             // Transform the local vertex position to world position
             Vector3 worldSpawnPoint = spawnerTerrain.transform.TransformPoint(spawnPoint);
-
-            // Skip every other vertex
-            skipVertex = !skipVertex;
-            if (skipVertex)
-            {
-                //continue;
-            }
 
             // Check if the point is already used
             if (uniqueSpawnPoints.Add(worldSpawnPoint))
